@@ -2,16 +2,17 @@
 int main()
 {
 int a,b,c;
+scanf("%d",&a,&b,&c);
 if((a>b)&&(a>c))
 {
 printf("a");
-else if(b>c)
+}
+else if((b>a)&&(b>c))
 {
 printf("b");
 }
-else
+else 
 {
 printf("c");
-}
 }
 }
